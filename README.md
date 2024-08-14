@@ -36,17 +36,17 @@ python -m unittest discover -s tests
 
 The _check_password_strength_ function evalueates the strength of a password based on the following criteria:
 
-    - **Length**: The password must be at least 8 characters long. If it is shorter, it is automatically rated as "weak."
-    - **Lowercase Letters**: The password should contain at least one lowercase letter.
-    - **Uppercase Letters**: The password should contain at least one uppercase letter.
-    - **Digits**: The password should contain at least one digit.
-    - **Special Characters**: The password should contain at least one special character.
+- Length: The password must be at least 8 characters long. If it is shorter, it is automatically rated as "weak."
+- Lowercase Letters: The password should contain at least one lowercase letter.
+- Uppercase Letters: The password should contain at least one uppercase letter.
+- Digits: The password should contain at least one digit.
+- Special Characters: The password should contain at least one special character.
 
 # Strength Levels
 
-    - **Strong**: The password meets all criteria.
-    - **Medium**: The password meets 2 or 3 criterias.
-    - **Weak**: The password meets fewer than 2 criteria, or it is shorter than 8 characters.
+- Strong: The password meets all criteria.
+- Medium: The password meets 2 or 3 criterias.
+- Weak: The password meets fewer than 2 criteria, or it is shorter than 8 characters.
 
 ### License
 
